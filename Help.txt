@@ -1,0 +1,5 @@
+In main.cpp you can find explanation of algorithms. Most parts of program have comments with explanation.
+If you want to rub project code in another IDE, just delte lines: 
+- #include <QCoreApplication>
+- QCoreApplication a(argc, argv);
+- return a.exec(); replace with return 1; for example.
